@@ -16,7 +16,7 @@
 ;;;; TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 ;;;; SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-(defsystem :microbench
+(asdf:defsystem :microbench
   :depends-on (:alexandria :parenscript-classic :cl-who)
   :author "Nikodemus Siivola <nikodemus@random-state.net>"
   :description "A microbenchmarking suite. Lies, benchamrks, and microbenchmarks."
